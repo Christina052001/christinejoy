@@ -1,0 +1,249 @@
+body {
+               
+    background-color: rgb(3,35,54);
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    
+
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: medium;
+}
+.title {
+    margin-top: 50px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    background-color: rgb(129, 36, 36);
+    text-align: center;
+    line-height: 40px;
+    word-spacing: 6px;
+    width: 500px;
+    margin-left: 380px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 247, 218);
+}
+.title:hover { 
+  background-image: url(gallery1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  background-position: 0px;
+}
+.intro {
+    
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(129, 36, 36);
+    line-height: 30px;
+    width: 245px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 247, 218);
+}
+.intro:hover { 
+  background-image: url(gallery1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+}
+    
+
+.introContent {
+    line-height: 1.60;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+   
+   
+   
+   
+}
+.background {
+    height: 100vh;
+    background-image: url(heyy.gif); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border: 1px solid rgb(73, 247, 218);
+
+}
+.objStudy {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(129, 36, 36);
+    line-height: 30px;
+    width: 245px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 247, 218);
+}
+.objStudy:hover { 
+  background-image: url(gallery1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+}
+
+ol,li {
+     line-height: 1.60;
+    text-align: justify;
+    margin-left: 29px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    
+}
+.members {
+margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(129, 36, 36);
+    line-height: 30px;
+    width: 245px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 247, 218);
+}
+.members:hover { 
+  background-image: url(gallery1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+}
+.parentsTable{
+    text-align: center;
+    overflow-x: auto;
+}
+table {
+
+    display: inline-table;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: rgb(129, 36, 36);
+    
+  }
+   td {
+    
+    text-align: center;
+    border: 1px solid rgb(73, 247, 218);
+    border-collapse: collapse;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+
+  }
+  th {
+    background-color: #0b0a58;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border: 1px solid rgb(73, 247, 218);
+    border-collapse: collapse;
+
+    
+}
+
+  
+  table:hover { 
+    background-image: url(gallery1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 0px;
+    
+
+  }
+  .expe {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(129, 36, 36);
+    line-height: 30px;
+    width: 245px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 247, 218);
+}
+.expe:hover { 
+  background-image: url(gallery1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+}
+.sectionexpe {
+  line-height: 1.60;
+    text-align: justify;
+    margin-left: 78px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+
+}
+
+.button-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+}
+
+
+.download-btn, .diploma {
+  display: inline-block;
+  background-color: rgb(129, 36, 36); 
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid rgb(73, 247, 218);
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover, .diploma:hover { 
+  background-image: url(gallery1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  color: white;
+}
+
+ 

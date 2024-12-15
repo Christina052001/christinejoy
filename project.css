@@ -1,39 +1,107 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-image: url(back.jpg);
-    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: 'Georgia', sans-serif;
+}
+
+body {
+    color: #444;
+    background-color: #faf3e3;
+    background-image: url('image.webp');
     background-size: cover;
-    color: white;
-    background-origin: content-box;
-    
-}
-ul {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-    margin-top: 30px;
-    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-ul li {
-    list-style-type: none;
-    margin: 0 10px;
+/* Navigation Bar */
+nav {
+    background-image: url('cooking.jpg');
+    padding: 10px;
+    text-align: right;
 }
 
-li a {
-    color: white;
+nav a {
+    color: #fff;
+    margin: 0 15px;
     text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 5px;
 }
- p {
-    color: white;
-    font-weight: bolder;
-    line-height: 500px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    font-size: 7em;
-    margin-right: 30px;
-    
 
- }
+nav a:first-child {
+   
+    font-weight: bold;
+}
+
+/* Header Section */
+header {
+    background-color: rgb(196, 41, 41);
+    padding: 5px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2, .services h2, .contact h2 {
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+    border-radius: 70px;
+    background-image: url('cooking.jpg');
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.about p, .contact p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: #000000;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+}
+
+/* Services Section */
+.services .service-item {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 15px;
+}
+
+.services .service-item h3 {
+    color: #b84300;
+    font-size: 1.3em;
+}
+
+/* Footer */
+footer {
+    background-image: url('cooking.jpg');
+    color: #faf3e3;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
