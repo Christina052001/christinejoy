@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* Navigation Bar */
+
 nav {
     background-image: url('cooking.jpg');
     padding: 10px;
@@ -34,7 +34,7 @@ nav a:first-child {
     font-weight: bold;
 }
 
-/* Header Section */
+
 header {
     background-color: rgb(196, 41, 41);
     padding: 5px 20px;
@@ -52,7 +52,7 @@ header p {
     margin-top: 10px;
 }
 
-/* Sections */
+
 section {
     padding: 40px 20px;
     text-align: center;
@@ -81,7 +81,7 @@ section {
     height: auto;
 }
 
-/* Services Section */
+
 .services .service-item {
     display: inline-block;
     width: 250px;
@@ -97,7 +97,7 @@ section {
     font-size: 1.3em;
 }
 
-/* Footer */
+
 footer {
     background-image: url('cooking.jpg');
     color: #faf3e3;

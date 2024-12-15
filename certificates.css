@@ -35,15 +35,15 @@ ul{
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Space between images */
-    justify-content: center; /* Center the images */
+    gap: 20px; 
+    justify-content: center; 
     padding: 10px;
     
 }
 
 .image-gallery img {
-    width: 400px; /* Set a fixed width */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #ccc; /* Optional border */
-    border-radius: 5px; /* Optional rounded corners */
+    width: 400px; 
+    height: auto; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
 }
